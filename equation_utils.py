@@ -1,4 +1,4 @@
-from sympy import sympy_solve
+import sympy
 
 ELEMENTS = [
     'H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne',
