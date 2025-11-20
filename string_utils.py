@@ -1,6 +1,4 @@
 
-
-
 def split_before_uppercases(formula):
     if formula == "":
         return []
@@ -18,7 +16,7 @@ def split_before_uppercases(formula):
     return parts
     
 def split_at_digit(formula):
-        prefix = ""
+    prefix = ""
     index = 0
     while index < len(formula):
         char = formula[index]
