@@ -1,4 +1,4 @@
- split_by_capitals(formula):
+def split_by_capitals(formula):
     if formula == "":
         return []
 
